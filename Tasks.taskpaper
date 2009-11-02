@@ -1,6 +1,7 @@
 Questions:
 - what do we use as commit messages on the undo branch?
 - can we really just commit the whole file every time a coalesced group of edits is pushed onto or popped off of the undo manager?
-	Surely yes.
-	- what will this mean for performance with large files?
-		- do we care?
+	- do NSUndoManager instances know about documents?
+		I don’t recall them doing so, but we can add that to the subclass’ API.
+		- what will this mean for performance with large files?
+			- do we care?
