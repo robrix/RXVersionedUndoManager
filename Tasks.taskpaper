@@ -5,3 +5,12 @@ Questions:
 		I don’t recall them doing so, but we can add that to the subclass’ API.
 		- what will this mean for performance with large files?
 			- do we care?
+
+Tests:
+- make a test target!
+
+- test pushing some edit onto the undo stack for a new document.
+	- should make the git branch.
+	- should make the appropriate commit.
+- test popping some edit off of the undo stack.
+	- what should this do?
