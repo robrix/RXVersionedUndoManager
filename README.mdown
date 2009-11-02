@@ -1,0 +1,7 @@
+#RXVersionedUndoManager
+
+An experimental undo manager subclass which saves undo state to a git branch.
+
+Spawned by a conversation between @rob_rix and @rentzsch on Twitter. The premise:
+
+> Binding the undo manager to git so you could branch and merge easily. Have the undo manager commits in a separate branch and then merge them into master with nice commit messages.
